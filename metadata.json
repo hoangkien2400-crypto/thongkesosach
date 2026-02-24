@@ -1,0 +1,5 @@
+{
+  "name": "Trợ Lý Tài Chính",
+  "description": "Ứng dụng quản lý tài chính cá nhân, hỗ trợ phân tích chi tiêu bằng AI và xuất báo cáo Excel.",
+  "requestFramePermissions": []
+}
