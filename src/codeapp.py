@@ -22,7 +22,7 @@ if st.button("Lập bảng thống kê"):
     else:
         try:
             # Sử dụng model 'gemini-1.5-flash' - đây là model ổn định và nhanh nhất hiện nay
-            model = genai.GenerativeModel('gemini-1.5-flash')
+            model = genai.GenerativeModel('models/gemini-1.5-flash-latest')
             
             prompt = f"""
             Bạn là chuyên gia tài chính. Thu nhập: {thu_nhap} VNĐ. 
@@ -40,3 +40,4 @@ if st.button("Lập bảng thống kê"):
         except Exception as e:
             st.error(f"Đã xảy ra lỗi kết nối AI: {e}")
             st.info("Gợi ý: Hãy kiểm tra lại xem API Key của bạn có còn hạn hoặc có đúng không.")
+
